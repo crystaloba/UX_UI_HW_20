@@ -43,13 +43,544 @@
 }
 .topnav a:hover {
   background-color: transparent;
-  color: lightgray;
+  color: rgb(7, 7, 7);
 }
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+}
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown1 .navDrop1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown1:hover .navDrop1 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content01 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content01 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content01 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content01 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown2 .navDrop2 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown2:hover .navDrop2 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content02 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content02 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content02 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content02 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown3 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown3 .navDrop3 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown3:hover .navDrop3 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content03 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content03 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content03 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content03 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown4 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown4 .navDrop4 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown4:hover .navDrop4 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content04 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content04 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content04 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown4:hover .dropdown-content04 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown5 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown5 .navDrop5 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown5:hover .navDrop5 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content05 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content05 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content05 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown5:hover .dropdown-content05 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown6 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown6 .navDrop6 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown6:hover .navDrop6 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content06 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content06 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content06 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown6:hover .dropdown-content06 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown7 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown7 .navDrop7 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown7:hover .navDrop7 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content07 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content07 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content07 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown7:hover .dropdown-content07 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown8 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown8 .navDrop8 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown8:hover .navDrop8 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content08 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content08 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content08 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown8:hover .dropdown-content08 {
+  display: block;
+}
+/* The dropdown container */
+.dropdown9 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown9 .navDrop9 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(19, 12, 12);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown9:hover .navDrop9 {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content09 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content09 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content09 a:hover {
+  background-color: transparent;
+  color: rgb(119, 119, 119);
+  transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown9:hover .dropdown-content09 {
+  display: block;
 }
 .page-header {
   background-image: linear-gradient(red, yellow)
@@ -326,113 +857,6 @@
   color: #FA9860;
   border: 2px solid #FA9860;
 }
-.dropdown {
-  position: relative;
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-}
-
-/* Dropdown Button */
-.makeDrop{
-  background-color: transparent;
-  color: rgb(0, 0, 0);
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  transition-duration: 0.4s;
-}
-/* Dropdown button on hover & focus */
-.makeDrop:hover, .dropbtn:focus {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    transition-duration: 0.4s;
-    opacity: 90%;
-  }
-
-/* The container <div> - needed to position the dropdown content */
-.maDrop {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1;
-color: #777777;}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-.hairDrop{
-  background-color: transparent;
-  color: rgb(0, 0, 0);
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-/* Dropdown button on hover & focus */
-.hairDrop:hover, .dropbtn:focus {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    transition-duration: 0.4s;
-    opacity: 90%;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.haDrop {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  transition-duration: 0.4s;
-}
-
-/* Links inside the dropdown */
-.dropdown-content2 a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content2 a:hover {background-color: #f1f1f1;
-color: #686868;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 
 .trending h2 {
   float: none;
