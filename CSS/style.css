@@ -652,9 +652,9 @@
   font-weight: 700;
   border-radius: 8px;
   transition-duration: 0.4s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline;
+  top: 12px;
+  left: 200px;
 }
 .dropbtn1:hover, .dropbtn1:focus {
   background-color: white;
@@ -674,9 +674,8 @@
   border-radius: 8px;
   transition-duration: 0.4s;
   display: inline;
-  position: relative;
-  left: 39px;
-  top: 27px;
+  left: 48px;
+  top: 20px;
 }
 .dropbtn2:hover, .dropbtn2:focus {
   background-color: white;
@@ -697,8 +696,8 @@
   transition-duration: 0.4s;
   display: inline;
   position: relative;
-  left: 39px;
-  top: 27px;
+  left: 9px;
+  top: 12px;
 }
 .dropbtn3:hover, .dropbtn3:focus {
   background-color: white;
@@ -720,7 +719,7 @@
   transition-duration: 0.4s;
   display: inline;
   position: relative;
-  left: 15px;
+  left: 8px;
   top: 15px;
 }
 .dropbtn4:hover, .dropbtn4:focus {
@@ -825,8 +824,7 @@
   border-radius: 8px;
   transition-duration: 0.4s;
   display: inline;
-  position: relative;
-  left: 15px;
+  left: 5px;
   top: 15px;
 }
 .dropbtn9:hover, .dropbtn9:focus {
@@ -848,7 +846,7 @@
   transition-duration: 0.4s;
   display: inline;
   position: relative;
-  left: 15px;
+  left: 10px;
   top: 15px;
 }
 .dropbtn10:hover, .dropbtn10:focus {
@@ -1173,7 +1171,7 @@
 }
 .serum {
   position: relative;
-  bottom: -229px;
+  bottom: -215px;
   right: 0px;
   font-size: 14px;
   text-align: center;
@@ -1196,10 +1194,11 @@
 .serum h5 {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 400;
+  font-size: 9px;
 }
 .goodMol {
   position: relative;
-  bottom: -205px;
+  bottom: -229px;
   right: 0px;
   font-size: 14px;
   text-align: center;
@@ -1226,7 +1225,7 @@
 }
 .cerave {
   position: relative;
-  bottom: -200px;
+  bottom: -222px;
   right: 0px;
   font-size: 14px;
   font-stretch: extra-expanded;
@@ -1255,7 +1254,7 @@
 }
 .maybelline {
   position: relative;
-  bottom: -195px;
+  bottom: -185px;
   right: 0px;
   font-size: 13px;
   text-align: center;
@@ -1282,7 +1281,7 @@
 }
 .laGirl {
   position: relative;
-  bottom: -178px;
+  bottom: -200px;
   right: 0px;
   font-size: 14px;
   font-stretch: extra-expanded;
@@ -1311,13 +1310,13 @@
 }
 .elf {
   position: relative;
-  bottom: -182px;
+  bottom: -202px;
   right: 0px;
   font-size: 14px;
   text-align: center;
   font-stretch: extra-expanded;
   font-weight: 600; 
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .elf h3 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -1630,38 +1629,42 @@
   color: rgb(129, 129, 129); 
   }
 .bottom_nav {
-  height: 40vh;
+  height: 15vh;
   width: 100%;
   padding: 0 8%;
-  background: coral;
+  background-color: #FA9860;
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .bottom_nav img {
   display: flex;
-  background-color: coral;
+  background-color: transparent;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  height: 15%;
-  width: 10%;
+  height: 25%;
+  width: 20;
   object-fit: contain;
   align-items: left;
   justify-content: left;
 }
 .bottom_nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 12px;
   word-spacing: 3px;
   margin-left: 2%;
   margin-right: 2%;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+  margin-top: 2%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition-duration: 0.4s;
 }
 .bottom_nav a:hover {
   background-color: transparent;
   color: lightgray;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition-duration: 0.4s;
 }
 #column {
   display: flex;
